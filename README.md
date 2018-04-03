@@ -8,5 +8,6 @@
             $("<style></style>").appendTo('head').html(css);
         }
     });
-});```
+});
+```
 4) close and reopen slack
