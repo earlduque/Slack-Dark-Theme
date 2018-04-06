@@ -1,6 +1,6 @@
 ## How to add the dark theme to slack
 
-1) go to your version of `C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
+1) go to your version of `C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static` (your own username and current app version)
 2) locate and open the file `ssb-interop.js` in notepad
 3) add this code to the end of that file and save:
 ```
