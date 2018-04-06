@@ -1,8 +1,11 @@
 ## How to add the dark theme to slack
 
-1) For PC users, go to your version of `C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static` (your own username and current app version). Mac users, go to your version of `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src`
-2) locate and open the file `ssb-interop.js` in notepad (pc) or sublimeText (mac) or similar. Mac users can also right click on this file and `Show Package Contents`
-3) add this code to the end of that file and save:
+1) For PC users, go to your version (your own username and current app version) of 
+`C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
+2) Mac users, go to your version of 
+`/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src`
+3) locate and open the file `ssb-interop.js` in notepad (pc) or sublimeText (mac) or similar. Mac users can also right click on this file and `Show Package Contents`
+4) add this code to the end of `ssb-interop.js` and save:
 ```
 document.addEventListener('DOMContentLoaded', function () {
     $.ajax({
@@ -13,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 ```
-4) close and reopen slack
+5) close and reopen slack
 
 ### Further, I like this as the sidebar coloring:
 
