@@ -2850,6 +2850,10 @@ ts-message .reply_bar:hover {
     border-bottom: 1px solid #222;
 }
 
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+    background: #222;
+}
+
 .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
     box-shadow: 0 32px #222;
 }
