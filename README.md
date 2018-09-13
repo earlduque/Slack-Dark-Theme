@@ -3,10 +3,11 @@
 1) For PC users, go to your version (your own username and current app version) of 
 `C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
 Note that if your slack client updates (it does this quietly without telling you), you'll need to do this process again for the updated version.
-2) Mac users, go to your version of 
+2) For Linux users, using the slack desktop (beta) navigate to `/lib/slack/resources/app.asar.unpacked/src/static`
+3) Mac users, go to your version of 
 `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src`
-3) locate and open the file `ssb-interop.js` in notepad (pc) or sublimeText (mac) or similar. Mac users can also right click on this file and `Show Package Contents`
-4) add this code to the end of `ssb-interop.js` and save:
+4) locate and open the file `ssb-interop.js` in notepad (pc), sublimeText (mac) or nano/vim for Linux users. Mac users can also right click on this file and `Show Package Contents`
+5) add this code to the end of `ssb-interop.js` and save:
 ```
 document.addEventListener('DOMContentLoaded', function () {
     $.ajax({
@@ -17,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 ```
-5) close and reopen slack
+6) close and reopen slack
 
 ### Further, I like this as the sidebar coloring:
 
