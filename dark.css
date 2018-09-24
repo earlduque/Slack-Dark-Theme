@@ -1010,6 +1010,10 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
             color: #bf360c;
         }
 
+        .menu ul li a:not(.inline_menu_link) {
+            color: inherit;
+        }
+
     .menu ul li.highlighted a {
         background: #222;
         border-bottom-color: #000;
