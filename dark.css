@@ -8619,14 +8619,18 @@ comments {
 a, a:link, a:visited {
     color: #0576b97a;
 }
+
+/* color when someone mention a username */
 .c-member_slug--link {
-    background: #eaf5fc80;
-    color: #0576b9;
+    background: #00a0ff;
+    color: #fff;
 }
 .c-member_slug--link, .c-member_slug--mention {
     border-radius: 3px;
     padding: 0 2px 1px 2px;
 }
+/* color when someone mention your username */
 .c-member_slug--mention, .c-member_slug--mention:hover {
-    background: #fff6d180;
+    background: #ffd835;
+    color: #000;
 }
