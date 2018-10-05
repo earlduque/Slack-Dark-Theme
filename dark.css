@@ -8622,7 +8622,7 @@ a, a:link, a:visited {
 
 /* color when someone mention a username */
 .c-member_slug--link {
-    background: #00a0ff;
+    background: #084D78;
     color: #fff !important;
 }
 .c-member_slug--link, .c-member_slug--mention {
@@ -8631,6 +8631,6 @@ a, a:link, a:visited {
 }
 /* color when someone mention your username */
 .c-member_slug--mention, .c-member_slug--mention:hover {
-    background: #ffd835;
+    background: #f4A4A4A;
     color: #000 !important;
 }
