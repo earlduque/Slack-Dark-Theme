@@ -8597,3 +8597,14 @@ comments {
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active {
     filter: grayscale(2) brightness(2);
 }
+
+.c-file_container--gradient:after {
+    background: linear-gradient(180deg,hsla(0,0%,100%,0),#363636);
+    border-radius: 0 0 8px 8px;
+    bottom: 0;
+    content: "";
+    height: 40px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
