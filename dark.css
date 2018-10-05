@@ -8582,9 +8582,9 @@ comments {
     border: 1px solid #363636;
 }
 
-    .para_menu .options a.active span {
-        filter: grayscale(2) brightness(2);
-    }
+.para_menu .options a.active span {
+    filter: grayscale(2) brightness(2);
+}
 
 .para_menu .options a span {
     filter: grayscale(2) brightness(5);
@@ -8594,6 +8594,6 @@ comments {
     filter: grayscale(2) brightness(1.8);
 }
 
-    .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active {
-        filter: grayscale(2) brightness(2);
-    }
+.para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active {
+    filter: grayscale(2) brightness(2);
+}
