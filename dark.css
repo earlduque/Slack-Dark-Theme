@@ -8610,5 +8610,23 @@ comments {
 }
 
 .client_channels_list_container {
-    background: red;
+    background: red !important;
+}
+.p-channel_sidebar {
+    background: blue !important;
+}
+
+a, a:link, a:visited {
+    color: #0576b97a;
+}
+.c-member_slug--link {
+    background: #eaf5fc80;
+    color: #0576b9;
+}
+.c-member_slug--link, .c-member_slug--mention {
+    border-radius: 3px;
+    padding: 0 2px 1px 2px;
+}
+.c-member_slug--mention, .c-member_slug--mention:hover {
+    background: #fff6d180;
 }
