@@ -8608,3 +8608,7 @@ comments {
     position: absolute;
     right: 0;
 }
+
+.client_channels_list_container {
+    background: red;
+}
