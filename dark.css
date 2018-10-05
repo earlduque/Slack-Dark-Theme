@@ -8610,10 +8610,10 @@ comments {
 }
 
 .client_channels_list_container {
-    background: red !important;
+    background: black !important;
 }
 .p-channel_sidebar {
-    background: blue !important;
+    background: black !important;
 }
 
 a, a:link, a:visited {
