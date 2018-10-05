@@ -1,3 +1,5 @@
+![logo](https://raw.githubusercontent.com/earlduque/Slack-Dark-Theme/master/brand-assets/slack-dark-theme-logo.png)
+
 ## How to add the dark theme to slack
 
 1) For PC users, go to your version (your own username and current app version) of 
