@@ -4849,11 +4849,16 @@ span.match {
 }
 
 .c-member__display-name, .c-team__display-name, .c-usergroup__handle {
-    color: #a1a1a1;
+    color: #c7c7c7;
 }
 
 .c-member__current-status--small::before, .c-member__secondary-name--large + .c-member__current-status--large::before, .c-member__secondary-name--medium + .c-member__current-status--medium::before {
-    color: #a1a1a1;
+    color: #c7c7c7;
+}
+
+.c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle {
+    color:#c7c7c7;
+    font-weight:700
 }
 
 .c-member .external_team_badge {
