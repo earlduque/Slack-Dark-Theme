@@ -8608,3 +8608,11 @@ comments {
     position: absolute;
     right: 0;
 }
+
+#member_preview_container {
+    background-color: #ff0000 !important;
+}
+
+#member_preview_container > .heading {
+    background-color: #00ff00 !important;
+}
