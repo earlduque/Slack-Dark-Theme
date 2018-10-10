@@ -8609,10 +8609,6 @@ comments {
     right: 0;
 }
 
-#member_preview_container {
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     background-color: #ff0000 !important;
-}
-
-#member_preview_container > .heading {
-    background-color: #00ff00 !important;
 }
