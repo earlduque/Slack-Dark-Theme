@@ -1575,7 +1575,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
         color: #a1a1a1;
     }
 
-#client_body:not(.onboarding)::before {
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     background: #222;
     border-bottom: 1px solid #363636;
     box-shadow: inset 1px 0 0 0 #222;
