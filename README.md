@@ -1,7 +1,7 @@
 ![logo](https://raw.githubusercontent.com/earlduque/Slack-Dark-Theme/master/brand-assets/slack-dark-theme-logo.png)
 
 ## How to add the dark theme to slack
-s
+
 1) For PC users, go to your version (your own username and current app version) of 
 `C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
 Note that if your slack client updates (it does this quietly without telling you), you'll need to do this process again for the updated version.
