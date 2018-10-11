@@ -8608,3 +8608,10 @@ comments {
     position: absolute;
     right: 0;
 }
+
+/**
+ * White bar caused by below.
+ */
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+    background-color: #222;
+}
