@@ -4812,12 +4812,7 @@ span.match {
     color: #a1a1a1;
 }
 
-#convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload .message_input .ql-blank {
-       border-color: #424242;
-       color: #a1a1a1; 
-}
-
-#convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload .message_input .ql-editor {
+#convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload .message_input .ql-blank.ql-editor {
        border-color: #424242;
        color: #a1a1a1; 
 }
