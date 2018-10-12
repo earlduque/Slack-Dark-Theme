@@ -4801,7 +4801,7 @@ span.match {
     color: #a1a1a1;
 }
 
-#convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input {
+#convo_tab #convo_scroller #reply_container .inline_message_input_container {
     
     background: #545454;
     border-color: #424242;
