@@ -4801,7 +4801,7 @@ span.match {
     color: #a1a1a1;
 }
 
-#convo_tab #convo_scroller #reply_container .inline_message_input_container {
+#convo_tab #convo_scroller #reply_container .inline_message_input_container, #convo_tab #convo_scroller #reply_container .with_file_upload {
     
     background: #545454;
     border-color: #424242;
@@ -4859,16 +4859,17 @@ span.match {
     }
 */
 
-.inline_file_upload {
+.inline_file_upload, .btn_unstyle {
     background: padding-box #545454;
     border-color: #424242;
     color: #949494;
 }
 
-    .inline_file_upload.active, .inline_file_upload.focus-ring, .inline_file_upload:focus, .inline_file_upload:hover {
+    .inline_file_upload.active, .inline_file_upload.focus-ring, .inline_file_upload:focus, .inline_file_upload:hover, .btn_unstyle.active, .btn_unstyle.focus-ring, .btn_unstyle:focus, .btn_unstyle:hover {
         background: #424242;
         border-color: #363636;
-    }
+        color: #949494;
+}
 
     
     
