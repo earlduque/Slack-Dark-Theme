@@ -780,6 +780,10 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
         opacity: 0.5;
     }
 
+    #msg_input .ql-placeholder {
+       color: #a1a1a1; 
+    }
+
     #msg_input[data-placeholder]:empty::before {
         color: #a1a1a1 !important;
     }
@@ -4801,6 +4805,37 @@ span.match {
     color: #a1a1a1;
 }
 
+#convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload {
+    
+    background: #545454;
+    border-color: #424242;
+    color: #a1a1a1;
+}
+
+#convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload .message_input .ql-blank.ql-editor {
+       border-color: #424242;
+       color: #a1a1a1; 
+}
+
+.inline_file_upload.btn_unstyle {
+    background: padding-box #545454;
+    border-color: #424242;
+    color: #949494;
+}
+
+    .inline_file_upload.btn_unstyle.active, .inline_file_upload.btn_unstyle.focus-ring, .inline_file_upload.btn_unstyle:focus, .inline_file_upload.btn_unstyle:hover {
+        background: #424242;
+        border-color: #363636;
+        color: #949494 !important;
+}
+
+.inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon:hover, .inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon.active, .inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon.focus-ring, .inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon:focus {
+        background: #424242;
+        border-color: #363636;
+        color: #949494 !important;
+}
+    
+    
 #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea {
     border-color: #363636;
     color: #a1a1a1;
