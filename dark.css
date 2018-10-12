@@ -4801,58 +4801,58 @@ span.match {
     color: #a1a1a1;
 }
 
-#convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input {
+#convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input {
     
     background: #545454;
     border-color: #424242;
     color: #a1a1a1;
 }
 
-    #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input::-webkit-input-placeholder {
+    #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input::-webkit-input-placeholder {
         color: #a1a1a1 !important;
         -webkit-filter: none;
         filter: none;
         opacity: 0.5;
     }
 
-    #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input::-moz-placeholder {
+    #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input::-moz-placeholder {
         color: #a1a1a1 !important;
         filter: none;
         opacity: 0.5;
     }
 
-    #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input::placeholder {
+    #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input::placeholder {
         color: #a1a1a1 !important;
         filter: none;
         opacity: 0.5;
     }
 
-    #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input[data-placeholder]:empty::before {
+    #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input[data-placeholder]:empty::before {
         color: #a1a1a1 !important;
     }
 
-    ##convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input:focus, #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input.focus {
+    ##convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input:focus, #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input.focus {
         border-color: #363636;
     }
 
-        #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input:focus + .inline_file_upload:not(:hover):not(.active), #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input.focus + .inline_file_upload:not(:hover):not(.active) {
+        #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input:focus + .inline_file_upload:not(:hover):not(.active), #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input.focus + .inline_file_upload:not(:hover):not(.active) {
             border-color: #363636;
         }
 
-    #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input + .inline_file_upload:not(:hover):not(.active) {
+    #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input + .inline_file_upload:not(:hover):not(.active) {
         border-color: #424242;
     }
 
-    #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input + .inline_file_upload.focus-ring:not(:hover):not(.active) {
+    #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input + .inline_file_upload.focus-ring:not(:hover):not(.active) {
         border-color: #424242;
     }
 
-    #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input.offline:not(.pretend-to-be-online) {
+    #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input.offline:not(.pretend-to-be-online) {
         background-color: #363636 !important;
         color: #949494;
     }
 
-   #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input.disabled, #convo_tab #convo_scroller #reply_container .inline_message-input_container .message_input.ql-disabled {
+   #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input.disabled, #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input.ql-disabled {
         background-color: #363636;
         border-color: #363636;
         color: #949494;
