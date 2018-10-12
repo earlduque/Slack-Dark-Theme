@@ -4828,6 +4828,12 @@ span.match {
         border-color: #363636;
         color: #949494 !important;
 }
+
+.inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon:hover, .inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon.active, .inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon.focus-ring, .inline_file_upload.btn_unstyle .ts_icon_plus_thick.upload_plus_icon:focus {
+        background: #424242;
+        border-color: #363636;
+        color: #949494 !important;
+}
     
     
 #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea {
