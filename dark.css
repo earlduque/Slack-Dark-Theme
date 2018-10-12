@@ -780,6 +780,10 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
         opacity: 0.5;
     }
 
+    #msg_input .ql-placeholder {
+       color: #a1a1a1; 
+    }
+
     #msg_input[data-placeholder]:empty::before {
         color: #a1a1a1 !important;
     }
@@ -4818,10 +4822,6 @@ span.match {
        color: #a1a1a1; 
 }
 
-#convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload .message_input .ql-placeholder {
-       border-color: #424242;
-       color: #a1a1a1; 
-}
 
  /*   #convo_tab #convo_scroller #reply_container .inline_message_input_container .message_input::-webkit-input-placeholder {
         color: #a1a1a1 !important;
