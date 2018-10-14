@@ -317,6 +317,22 @@ h1, h2, h3, h4 {
     border: none;
 }
 
+.LoadingScreen {
+    background-color: #000;
+}
+
+.LoadingScreen-primaryText {
+    color: #a1a1a1;
+}
+
+.LoadingScreen-secondaryText {
+    color: #a1a1a1;
+}
+
+.LoadingScreen-link {
+    color: #949494;
+}
+
 .infinite_spinner_bg, .infinite_spinner_blue {
     stroke: #a1a1a1;
 }
@@ -781,7 +797,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
     }
 
     #msg_input .ql-placeholder {
-       color: #a1a1a1; 
+       color: #a1a1a1;
     }
 
     #msg_input[data-placeholder]:empty::before {
@@ -4806,7 +4822,7 @@ span.match {
 }
 
 #convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload {
-    
+
     background: #545454;
     border-color: #424242;
     color: #a1a1a1;
@@ -4814,7 +4830,7 @@ span.match {
 
 #convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload .message_input .ql-blank.ql-editor {
        border-color: #424242;
-       color: #a1a1a1; 
+       color: #a1a1a1;
 }
 
 .inline_file_upload.btn_unstyle {
@@ -4834,8 +4850,8 @@ span.match {
         border-color: #363636;
         color: #949494 !important;
 }
-    
-    
+
+
 #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea {
     border-color: #363636;
     color: #a1a1a1;
