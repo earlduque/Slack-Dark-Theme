@@ -4822,7 +4822,6 @@ span.match {
 }
 
 #convo_tab #convo_scroller #reply_container .inline_message_input_container.with_file_upload {
-
     background: #545454;
     border-color: #424242;
     color: #a1a1a1;
@@ -4850,7 +4849,6 @@ span.match {
         border-color: #363636;
         color: #949494 !important;
 }
-
 
 #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea {
     border-color: #363636;
