@@ -8622,6 +8622,6 @@ a, a:link, a:visited {
 
 /* fix messages background color */
 
-.c-virtual_list__item {
+.c-virtual_list__item, .p-message_pane__limited_history_foreword {
     background-color: #000000;
 }
