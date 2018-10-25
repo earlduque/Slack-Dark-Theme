@@ -8657,3 +8657,25 @@ comments {
     position: absolute;
     right: 0;
 }
+
+.client_channels_list_container {
+    background: black !important;
+}
+.p-channel_sidebar {
+    background: black !important;
+}
+
+a, a:link, a:visited {
+    color: #0576b97a;
+}
+
+/* fix messages background color */
+
+.c-virtual_list__item, .p-message_pane__limited_history_foreword {
+    background: #222 !important;
+    color: #a1a1a1 !important;
+}
+
+.p-message_pane__limited_history_foreword_headline {
+    color: #a1a1a1 !important;
+}
