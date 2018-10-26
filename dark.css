@@ -8658,13 +8658,6 @@ comments {
     right: 0;
 }
 
-.client_channels_list_container {
-    background: black !important;
-}
-.p-channel_sidebar {
-    background: black !important;
-}
-
 a, a:link, a:visited {
     color: #0576b97a;
 }
