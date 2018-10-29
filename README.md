@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 3) scroll down and click on advanced/custom theme
 4) paste this into the custom theme input box:
 `#363636,#444A47,#D39B46,#FEFEFE,#434745,#FEFEFE,#99D04A,#DB6668`
+5) Or just copy and paste the code block above into any chat message to yourself or another person. Then you will see a button appear saying "Switch sidebar theme"
 
 ### What it looks like
 ![dark theme example](https://raw.githubusercontent.com/earlduque/Slack-Dark-Theme/master/darktheme.png)
