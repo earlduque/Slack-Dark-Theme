@@ -3,7 +3,7 @@ body {
     color: #a1a1a1;
 }
 
-a {
+/* a {
     color: #949494;
 }
 
@@ -12,8 +12,8 @@ a {
     }
 
     a:hover, a:active, a:focus {
-        color: #c7c7c7;
-    }
+        color: #s;
+    } */
 
 hr {
     border-bottom: 1px solid #424242;
