@@ -3,17 +3,17 @@ body {
     color: #a1a1a1;
 }
 
-/* a {
-    color: #949494;
+ a {
+    color: #1264a3;
 }
 
     a:link, a:visited {
-        color: #949494;
+        color: #1264a3;
     }
 
     a:hover, a:active, a:focus {
-        color: #s;
-    } */
+        color: #0b4c8c;
+    } 
 
 hr {
     border-bottom: 1px solid #424242;
