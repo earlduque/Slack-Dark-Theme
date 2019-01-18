@@ -8672,3 +8672,15 @@ a, a:link, a:visited {
 .p-message_pane__limited_history_foreword_headline {
     color: #a1a1a1 !important;
 }
+
+.p-threads_flexpane {
+    background: #000000;
+}
+
+.p-threads_flexpane__header .p-flexpane_header__children {
+    color: lightgray;
+}
+
+.p-threads_flexpane__header_channel_name {
+    color: lightgray;
+}
