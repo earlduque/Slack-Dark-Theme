@@ -8673,7 +8673,7 @@ a, a:link, a:visited {
     color: #a1a1a1 !important;
 }
 
-.p-threads_flexpane {
+.p-threads_flexpane, .p-flexpane_header {
     background: #000000;
 }
 
