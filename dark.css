@@ -1,6 +1,6 @@
 body {
-    background: #222;
-    color: #a1a1a1;
+    background: #111;
+    color: #eaeaea;
 }
 
 a {
@@ -1887,16 +1887,16 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
     color: #a1a1a1;
 }
 
-    .c-message__sender a {
+.c-message__sender a {
         color: #a1a1a1;
-    }
+}
 
-    .c-message__sender .c-emoji__text_mode_icon {
+ .c-message__sender .c-emoji__text_mode_icon {
         color: #949494;
     }
 
 .c-message__body {
-    color: #a1a1a1;
+    color: #f1eded;
 }
 
 .c-message__body--unknown {
@@ -3268,7 +3268,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     }
 
 .c-message--light .c-message__sender .c-message__sender_link {
-    color: #a1a1a1;
+    color: #6f6f6f;
 }
 
 .light_theme ts-message {
@@ -8665,6 +8665,7 @@ comments {
 .c-virtual_list__item, .p-message_pane__limited_history_foreword {
     background: #222 !important;
     color: #a1a1a1 !important;
+	border-bottom: 1px solid #565656;
 }
 
 .p-message_pane__limited_history_foreword_headline {
