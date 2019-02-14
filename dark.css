@@ -4,11 +4,11 @@ body {
 }
 
 a {
-    color: #949494;
+    color: #1264a3;
 }
 
     a:link, a:visited {
-        color: #949494;
+        color: #1264a3;
     }
 
     a:hover, a:active, a:focus {
