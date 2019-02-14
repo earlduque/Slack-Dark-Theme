@@ -4,7 +4,8 @@
 
 1) Locate Slack's `ssb-interop.js` file
     * For PC users, go to your version (your own username and current app version) of 
-`C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
+`C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static` or in 
+`C:\Program Files (x86)\Slack\resources\app.asar.unpacked\src\static`
 Note that if your slack client updates (it does this quietly without telling you), you'll need to do this process again for the updated version.
     * For Linux users, using the slack desktop (beta) navigate to `/lib/slack/resources/app.asar.unpacked/src/static`
     * Mac users, go to your version of 
@@ -14,7 +15,7 @@ Note that if your slack client updates (it does this quietly without telling you
 ```
 document.addEventListener('DOMContentLoaded', function () {
     $.ajax({
-        url: 'https://raw.githubusercontent.com/earlduque/Slack-Dark-Theme/master/dark.css',
+        url: 'https://raw.githubusercontent.com/tepesware/Slack-Dark-Theme/master/dark.css',
         success: function (css) {
             $("<style></style>").appendTo('head').html(css);
         }
