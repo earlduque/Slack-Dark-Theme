@@ -6,6 +6,9 @@ body {
 a {
 	 color: #1264a3;
 }
+.c-message__body {
+    color: #dddddd;
+}
 
 a:link, a:visited {
         color: #1264a3;
@@ -1895,9 +1898,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
         color: #949494;
     }
 
-.c-message__body {
-    color: #f1eded;
-}
+
 
 .c-message__body--unknown {
     background: rgba(84, 84, 84, 0.1);
