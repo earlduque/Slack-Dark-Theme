@@ -8685,3 +8685,7 @@ a, a:link, a:visited {
 .p-threads_flexpane__header_channel_name {
     color: lightgray;
 }
+
+.c-reaction__count {
+    color: lightgray;
+}
