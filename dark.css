@@ -8689,3 +8689,7 @@ a, a:link, a:visited {
 .c-reaction__count {
     color: lightgray;
 }
+
+.c-search_message__body{
+    color: lightgray;
+}
