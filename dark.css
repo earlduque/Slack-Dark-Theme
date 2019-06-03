@@ -8693,3 +8693,32 @@ a, a:link, a:visited {
 .c-search_message__body{
     color: lightgray;
 }
+
+.p_threads_view_load_older_button{
+	background: #363636
+}
+.p_threads_view_load_older_button:hover{
+	background: #696969
+} 
+.c-link--button{
+	color: lightgray;
+}
+.c-message_kit__actions--default {
+    background: #363636;
+    color: lightgray;
+}
+.c-message_kit__actions--default:hover {
+	background: #696969
+}
+span.c-message__sender.c-message_kit__sender {
+    background: #AAAAAA;
+}
+.p-threads_footer__input_container{
+	background: #363636;
+}
+.c-label--inline .c-label__text{
+	color: lightgray;
+}
+.p-threads_view_header__permalink{
+	color: lightgray!important;
+}
