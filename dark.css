@@ -8694,6 +8694,10 @@ a, a:link, a:visited {
     color: lightgray;
 }
 
+.c-reaction_add {
+    background: #a1a1a1;
+}
+
 .c-search_message__body{
     color: lightgray;
 }
