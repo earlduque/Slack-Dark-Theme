@@ -3271,6 +3271,20 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     color: #a1a1a1;
 }
 
+.c-message--editing {
+    background: #363636;
+    color: #a1a1a1;
+}
+
+.c-texty_input--multi_line {
+    background: #545454;
+    color: #a1a1a1;
+}
+
+.c-texty_input--multi_line.focus {
+    border-color: #868686;
+}
+
 .light_theme ts-message {
     color: #a1a1a1;
 }
