@@ -3289,6 +3289,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     color: #949494 !important;
 }
 
+.c-menu {
+    background: #363636;
+    border-top-color: #a1a1a1;
+}
+
+    .c-menu .c-menu_item__button, .c-menu .c-menu_separator__separator, .c-menu .c-menu_item__link-indicator::before, .c-menu .c-menu_item__submenu-indicator:before {
+        color: #a1a1a1;
+    }
+
+    .c-menu .c-menu_item__button--highlighted, .c-menu_item__button--highlighted .c-menu_item__link-indicator::before, .c-menu_item__button--highlighted .c-menu_item__submenu-indicator:before {
+        color: #fff !important;
+    }
+
 .light_theme ts-message {
     color: #a1a1a1;
 }
