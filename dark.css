@@ -3285,6 +3285,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     border-color: #868686;
 }
 
+.c-message__editor__emoji_smile_icon {
+    color: #949494 !important;
+}
+
 .light_theme ts-message {
     color: #a1a1a1;
 }
