@@ -333,6 +333,10 @@ h1, h2, h3, h4 {
     color: #949494;
 }
 
+.p-degraded_list__loading {
+    background-color: #222;
+}
+
 .infinite_spinner_bg, .infinite_spinner_blue {
     stroke: #a1a1a1;
 }
@@ -3270,6 +3274,37 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .c-message--light .c-message__sender .c-message__sender_link {
     color: #a1a1a1;
 }
+
+.c-message--editing {
+    background: #363636;
+    color: #a1a1a1;
+}
+
+.c-texty_input--multi_line {
+    background: #545454;
+    color: #a1a1a1;
+}
+
+.c-texty_input--multi_line.focus {
+    border-color: #868686;
+}
+
+.c-message__editor__emoji_smile_icon {
+    color: #949494 !important;
+}
+
+.c-menu {
+    background: #363636;
+    border-top-color: #a1a1a1;
+}
+
+    .c-menu .c-menu_item__button, .c-menu .c-menu_separator__separator, .c-menu .c-menu_item__link-indicator::before, .c-menu .c-menu_item__submenu-indicator:before {
+        color: #a1a1a1;
+    }
+
+    .c-menu .c-menu_item__button--highlighted, .c-menu_item__button--highlighted .c-menu_item__link-indicator::before, .c-menu_item__button--highlighted .c-menu_item__submenu-indicator:before {
+        color: #fff !important;
+    }
 
 .light_theme ts-message {
     color: #a1a1a1;
@@ -8682,12 +8717,24 @@ a, a:link, a:visited {
     color: lightgray;
 }
 
+.p-flexpane_header .p-flexpane_header__control {
+    color: #a1a1a1 !important;
+}
+
+.p-flexpane_header .p-flexpane_header__control:hover {
+    background: #222;
+}
+
 .p-threads_flexpane__header_channel_name {
     color: lightgray;
 }
 
 .c-reaction__count {
     color: lightgray;
+}
+
+.c-reaction_add {
+    background: #a1a1a1;
 }
 
 .c-search_message__body{
@@ -8812,3 +8859,15 @@ span.c-message__sender.c-message_kit__sender {
     .c-mini_calendar .c-calendar_view_header__stepper_btn:hover {
         background: #424242;
     }
+
+.p-download_item__actions {
+    background: #222;
+}
+
+.p-download_item .p-download_item__link--show, .p-download_item .p-download_item__link--remove {
+    color: #a1a1a1 !important;
+}
+
+.p-download_item .p-download_item__link--remove:hover {
+    color: #fff !important;
+}
