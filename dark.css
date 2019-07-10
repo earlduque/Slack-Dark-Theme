@@ -8683,7 +8683,7 @@ a, a:link, a:visited {
 }
 
 .p-flexpane_header .p-flexpane_header__control {
-    color: lightgray !important;
+    color: #a1a1a1 !important;
 }
 
 .p-flexpane_header .p-flexpane_header__control:hover {
@@ -8736,7 +8736,7 @@ span.c-message__sender.c-message_kit__sender {
 }
 
 .p-download_item .p-download_item__link--show, .p-download_item .p-download_item__link--remove {
-    color: lightgray !important;
+    color: #a1a1a1 !important;
 }
 
 .p-download_item .p-download_item__link--remove:hover {
