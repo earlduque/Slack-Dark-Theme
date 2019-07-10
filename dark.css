@@ -8717,6 +8717,14 @@ a, a:link, a:visited {
     color: lightgray;
 }
 
+.p-flexpane_header .p-flexpane_header__control {
+    color: #a1a1a1 !important;
+}
+
+.p-flexpane_header .p-flexpane_header__control:hover {
+    background: #222;
+}
+
 .p-threads_flexpane__header_channel_name {
     color: lightgray;
 }
@@ -8760,4 +8768,16 @@ span.c-message__sender.c-message_kit__sender {
 }
 .p-threads_view_header__permalink{
 	color: lightgray!important;
+}
+
+.p-download_item__actions {
+    background: #222;
+}
+
+.p-download_item .p-download_item__link--show, .p-download_item .p-download_item__link--remove {
+    color: #a1a1a1 !important;
+}
+
+.p-download_item .p-download_item__link--remove:hover {
+    color: #fff !important;
 }
