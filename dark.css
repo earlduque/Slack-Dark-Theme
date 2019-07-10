@@ -8722,3 +8722,93 @@ span.c-message__sender.c-message_kit__sender {
 .p-threads_view_header__permalink{
 	color: lightgray!important;
 }
+
+.p-custom_status_input__dialog {
+    background: #222;
+}
+
+.c-dialog__header {
+    background: #222;
+}
+
+    .c-dialog__header .c-dialog__title {
+        color: inherit;
+    }
+
+    .c-dialog__header .c-dialog__close:hover {
+        color: lightgrey;
+    }
+
+.c-dialog__body {
+    background: #222;
+}
+
+    .c-dialog__body .c-button-unstyled:hover{
+        color: lightgrey;
+    }
+
+    .c-dialog__body .p-custom_status_input__clear_icon {
+        color: inherit;
+    }
+
+.c-dialog__footer {
+    background: #222;
+}
+
+    .c-dialog__footer .p-custom_status_input__duration_picker_select, .c-dialog__footer .p-custom_status_input__custom_expiration_picker_time_select, .c-dialog__footer .p-custom_status_input__custom_expiration_picker_date_picker_trigger {
+        background: #222;
+        color: #a1a1a1;
+    }
+    
+    .c-dialog__footer .c-dialog__footer_buttons .c-button {
+        background: #424242;
+        color: #a1a1a1;
+    }
+
+    .c-dialog__footer .c-dialog__footer_text .c-input_select__selected_value--placeholder {
+        color: #a1a1a1;
+    }
+
+.c-input_select_options_list_container {
+    background: #222 !important;
+    border-color: #222 !important;
+}
+
+    .c-input_select_options_list_container .c-input_select_options_list__option {
+        color: #a1a1a1;
+    }
+
+.p-custom_status_input__shortcut_pill {
+    background: #222;
+    color: #a1a1a1;
+}
+
+.c-date_picker__dropdown {
+    background: #222;
+}
+
+.c-mini_calendar {
+    background: #222;
+}
+
+    .c-mini_calendar .c-calendar_view_header, .c-mini_calendar .c-calendar_month__day_of_week_heading {
+        color: #a1a1a1;
+    }
+
+    .c-mini_calendar .c-date_picker_calendar__date--disabled {
+        background: #616061;
+        color: inherit;
+    }
+
+    .c-mini_calendar .c-mini_calendar__month_button:disabled {
+        background: #616061;
+        color: inherit;
+    }
+
+    .c-mini_calendar .c-calendar_view_header__title_btn:hover {
+        background: #424242;
+    }
+
+    .c-mini_calendar .c-calendar_view_header__stepper_btn:hover {
+        background: #424242;
+    }
