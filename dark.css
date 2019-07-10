@@ -3275,6 +3275,37 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     color: #a1a1a1;
 }
 
+.c-message--editing {
+    background: #363636;
+    color: #a1a1a1;
+}
+
+.c-texty_input--multi_line {
+    background: #545454;
+    color: #a1a1a1;
+}
+
+.c-texty_input--multi_line.focus {
+    border-color: #868686;
+}
+
+.c-message__editor__emoji_smile_icon {
+    color: #949494 !important;
+}
+
+.c-menu {
+    background: #363636;
+    border-top-color: #a1a1a1;
+}
+
+    .c-menu .c-menu_item__button, .c-menu .c-menu_separator__separator, .c-menu .c-menu_item__link-indicator::before, .c-menu .c-menu_item__submenu-indicator:before {
+        color: #a1a1a1;
+    }
+
+    .c-menu .c-menu_item__button--highlighted, .c-menu_item__button--highlighted .c-menu_item__link-indicator::before, .c-menu_item__button--highlighted .c-menu_item__submenu-indicator:before {
+        color: #fff !important;
+    }
+
 .light_theme ts-message {
     color: #a1a1a1;
 }
