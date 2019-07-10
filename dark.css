@@ -333,6 +333,10 @@ h1, h2, h3, h4 {
     color: #949494;
 }
 
+.p-degraded_list__loading {
+    background-color: #222;
+}
+
 .infinite_spinner_bg, .infinite_spinner_blue {
     stroke: #a1a1a1;
 }
@@ -8688,6 +8692,10 @@ a, a:link, a:visited {
 
 .c-reaction__count {
     color: lightgray;
+}
+
+.c-reaction_add {
+    background: #a1a1a1;
 }
 
 .c-search_message__body{
