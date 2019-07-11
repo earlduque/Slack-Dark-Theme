@@ -8871,3 +8871,21 @@ span.c-message__sender.c-message_kit__sender {
 .p-download_item .p-download_item__link--remove:hover {
     color: #fff !important;
 }
+
+.member_details .member_name {
+    color: #a1a1a1 !important;
+}
+
+.member_details .c-button {
+    background: #424242;
+    color: #a1a1a1;
+}
+
+.member_details .c-button:hover {
+    background: #626262;
+}
+
+.member_details .c-button:active {
+    background: #626262;
+}
+
