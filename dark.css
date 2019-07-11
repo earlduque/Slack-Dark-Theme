@@ -8907,3 +8907,10 @@ span.c-message__sender.c-message_kit__sender {
     color: #fff;
 }
 
+.c-filter_input {
+    background: #222;
+}
+
+.c-filter_input input {
+    background: #222;
+}
