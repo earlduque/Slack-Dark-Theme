@@ -5184,7 +5184,7 @@ input[type="text"].p-emoji_picker__input:focus {
     }
 
 .rxn {
-    background: #000;
+    background: #424242;
     border: 1px solid #545454;
 }
 
@@ -5195,6 +5195,10 @@ input[type="text"].p-emoji_picker__input:focus {
         .rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count {
             color: #a1a1a1;
         }
+
+    .rxn.rxn_add_btn {
+        background: #949494;
+    }
 
     .rxn.user_reacted {
         background-color: rgba(66, 66, 66, 0.08);
