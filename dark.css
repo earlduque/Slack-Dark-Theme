@@ -8872,6 +8872,10 @@ span.c-message__sender.c-message_kit__sender {
     background: #222;
 }
 
+.p-download_item__name_row {
+    color: #a1a1a1 !important;
+}
+
 .p-download_item .p-download_item__link--show, .p-download_item .p-download_item__link--remove {
     color: #a1a1a1 !important;
 }
@@ -8917,4 +8921,40 @@ span.c-message__sender.c-message_kit__sender {
 
 .c-filter_input input {
     background: #222;
+}
+
+.p-file_flexpane--list {
+    background: #222;
+}
+
+.c-input_select__selected_value, .c-input_select {
+    color: #a1a1a1 !important;
+}
+
+#files_tab .p-file_list__file_type_select, #files_tab .p-file_list__select_wrapper {
+    background: #545454;
+}
+
+#files_tab .c-input_select {
+    background: #545454;
+}
+
+    #files_tab .c-input_select .c-unified_member__name {
+        color: #a1a1a1;
+    }
+
+    #files_tab .c-input_select > input {
+        color: #a1a1a1;
+    }
+
+.p-file_list .c-pillow_file_container {
+    background: #222;
+}
+
+.p-file_list .c-pillow_file__title, .p-global_nav__flex_btn--back, .p-file_list__empty {
+    color: #a1a1a1 !important;
+}
+
+.p-file_details__share_channel, .p-file_details__name {
+    color: inherit;
 }
