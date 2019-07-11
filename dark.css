@@ -8893,3 +8893,17 @@ span.c-message__sender.c-message_kit__sender {
     background: #626262;
 }
 
+.p-channel_page_apps__list__row, .p-channel_page_apps__list__row:hover {
+    color: #a1a1a1;
+}
+
+.p-channel_page_apps__list__row__remove:hover {
+    color: #fff;
+}
+
+.p-channel_page_apps__list__row:hover .p-channel_page_apps__list__row__wrapper {
+    background-color: #363636;
+    border-color: #363636;
+    color: #fff;
+}
+
