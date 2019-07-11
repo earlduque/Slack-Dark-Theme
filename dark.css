@@ -8816,6 +8816,10 @@ span.c-message__sender.c-message_kit__sender {
         color: #a1a1a1;
     }
 
+    .c-dialog__footer .c-dialog__footer_buttons .c-button:hover {
+        background: #626262;
+    }
+
     .c-dialog__footer .c-dialog__footer_text .c-input_select__selected_value--placeholder {
         color: #a1a1a1;
     }
