@@ -8958,3 +8958,13 @@ span.c-message__sender.c-message_kit__sender {
 .p-file_details__share_channel, .p-file_details__name {
     color: inherit;
 }
+
+.c-member_slug--link {
+    background: #424242;
+    color: #a1a1a1 !important;
+}
+
+.c-member_slug--link:hover {
+    background: #323232;
+    color: inherit;
+}
