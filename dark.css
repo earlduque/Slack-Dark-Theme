@@ -8825,8 +8825,8 @@ span.c-message__sender.c-message_kit__sender {
     }
 
 .c-input_select_options_list_container {
-    background: #222 !important;
-    border-color: #222 !important;
+    background: #444 !important;
+    border-color: #444 !important;
 }
 
     .c-input_select_options_list_container .c-input_select_options_list__option {
@@ -8990,6 +8990,27 @@ span.c-message__sender.c-message_kit__sender {
 }
 
 .c-dialog_speed_bump__button_row .c-button--outline {
+    background: #545454;
+    color: #a1a1a1;
+}
+
+.c-input_select {
+    background: #545454;
+}
+
+.c-dialog__body input[type=text]:focus {
+    box-shadow: none;
+}
+
+.c-dialog__body .c-input_select--active {
+    box-shadow: 0 0 0 1px #333, 0 0 0 5px #333;
+}
+
+.c-input_select__secondary_member_name {
+    color: #fff;
+}
+
+.c-dialog__footer .c-button {
     background: #424242;
     color: #a1a1a1;
 }
