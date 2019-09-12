@@ -1,3 +1,5 @@
+## [2019/09/12] I am no longer updating this repo or merging pull requests. Slack has officially released dark themes for their primary platforms (PC, Mac, and Mobile), and the ROI of keeping this up-to-date is no longer enough to make up for the constant updates. Feel free to check out the forks! Thanks for making this my most popular GitHub project!
+
 ![logo](https://raw.githubusercontent.com/earlduque/Slack-Dark-Theme/master/brand-assets/slack-dark-theme-logo.png)
 
 ## How to add the dark theme to slack
