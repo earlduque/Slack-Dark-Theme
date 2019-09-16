@@ -9014,3 +9014,16 @@ span.c-message__sender.c-message_kit__sender {
     background: #424242;
     color: #a1a1a1;
 }
+
+.c-member_slug--link {
+    background: #424242;
+    color: #a1a1a1 !important;
+}
+
+.c-member_slug--link:hover {
+    background: #323232;
+}
+
+.c-message_attachment__author_name {
+    color: inherit;
+}
