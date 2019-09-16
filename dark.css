@@ -8958,3 +8958,7 @@ span.c-message__sender.c-message_kit__sender {
 .p-file_details__share_channel, .p-file_details__name {
     color: inherit;
 }
+
+.c-message_attachment__author_name {
+    color: inherit;
+}
