@@ -8966,5 +8966,8 @@ span.c-message__sender.c-message_kit__sender {
 
 .c-member_slug--link:hover {
     background: #323232;
+}
+
+.c-message_attachment__author_name {
     color: inherit;
 }
